@@ -215,7 +215,7 @@
                                         <button
                                             type="submit"
                                             class="btn btn-sm btn-success">
-                                            Add Employee
+                                            Add Job
                                         </button>
                                     </div>
                                 </div>
@@ -294,10 +294,10 @@
      </div>
     <!-- Job Details Modal -->
 
-     <!-- Edit Employee Modal -->
+     <!-- Edit Job Modal -->
      <div 
         class="modal fade"
-        id="employee_edit"
+        id="job_edit"
         data-bs-backdrop="static"
         tabindex="-1"
         aria-hidden="true"
@@ -305,7 +305,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header text-bg-dark">
-                    <h5 class="modal-title">Edit Employee Details</h5>
+                    <h5 class="modal-title">Edit Job Details</h5>
                     <button
                         type="button"
                         class="btn-close btn-close-white"
@@ -323,43 +323,17 @@
                                         <input type="date" class="form-control form-control-sm" value="2026-07-25" required>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control form-control-sm" placeholder="First Name" value="John" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control form-control-sm" placeholder="Last Name" value="Doe" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <input type="email" class="form-control form-control-sm" placeholder="Email ID" value="johndoe@gmail.com" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <input type="tel" class="form-control form-control-sm" placeholder="Phone" value="741852963" required>
-                                    </div>
-                                </div>
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <select class="form-select form-select-sm" aria-label="Job Assigned">
-                                            <option>Select job for Employee</option>
-                                            <option selected value="Graphic Designer">Graphic Designer</option>
-                                            <option value="Web Designer">Web Designer</option>
-                                            <option value="Web Developer">Web Developer</option>
-                                            <option value="Digital Marketer">Digital Marketer</option>
-                                        </select>
+                                        <input type="text" class="form-control form-control-sm" placeholder="Job Name" value="Graphic Designer" required>
                                     </div>
-                                </div>
+                                </div>                       
                                 <div class="col-md-10 mb-3">
                                     <div class="d-grid">
                                         <button
                                             type="submit"
                                             class="btn btn-sm btn-warning">
-                                            Update Employee
+                                            Update Job
                                         </button>
                                     </div>
                                 </div>
@@ -367,8 +341,9 @@
                                     <div class="d-grid">
                                         <button
                                             type="button"
-                                            class="btn btn-sm btn-success"
-                                            data-bs-dismiss="modal">
+                                            class="btn btn-sm btn-danger"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close">
                                             Close
                                         </button>
                                     </div>
@@ -397,7 +372,7 @@
         </div>
 
      </div>
-    <!-- Edit Employee Modal -->
+    <!-- Edit Job Modal -->
 
     <!-- Delete Employee Modal -->
      <div 
